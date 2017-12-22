@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS history;
+CREATE TABLE history (
+	id	INTEGER NOT NULL,
+	placed	TEXT NOT NULL,
+	delay	INTEGER NOT NULL,
+	phoneNumber	TEXT NOT NULL,
+	n INTEGER NOT NULL,
+	PRIMARY KEY(id)
+);
