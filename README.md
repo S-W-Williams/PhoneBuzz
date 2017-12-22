@@ -9,6 +9,7 @@ Flask==0.12.2
 twilio==6.10.0
 phonenumbers==8.8.8
 celery==3.1.25
+redis==2.10.6
 ```
 
 config.py requires a Twilio auth token, Twilio account SID, Twilio phone number, a url to redis, and the URL of the environment.
