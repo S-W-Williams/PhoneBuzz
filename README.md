@@ -1,5 +1,5 @@
 # PhoneBuzz
-LendUp Coding Challenge
+LendUp Coding Challenge. Plays FizzBuzz over the phone using Twilio and TwiML with support for call scheduling. 
 
 Built with Python 3.5 and Flask. I opted to use celery and redis to do the call scheduling.
 
